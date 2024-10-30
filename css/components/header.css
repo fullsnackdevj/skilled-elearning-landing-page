@@ -4,26 +4,10 @@
   align-items: center;
   padding-block: 16px;
 }
-
-.header .logo {
-  width: 4.9556rem;
-}
-
 /* padding top and bottom  */
 /* tablet size */
 @media (width >=50.625em) {
   .header {
     padding-block: 24px;
-  }
-}
-
-/* desktop size */
-@media (width >=75em) {
-  /* .header {
-    padding-block: 16px;
-  } */
-
-  .header .logo {
-    width: 6.9375rem;
   }
 }

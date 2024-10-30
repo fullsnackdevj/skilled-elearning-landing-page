@@ -1,0 +1,10 @@
+.footer {
+  background: var(--clr-blue-900);
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px;
+  align-items: center;
+}

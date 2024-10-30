@@ -56,4 +56,20 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  transition: opacity 150ms ease-in-out;
+}
+
+.logo {
+  width: 4.955625rem;
+}
+
+/* desktop size */
+@media (width >=75em) {
+  .logo {
+    width: 6.9375rem;
+  }
+}
+
+img.logo:hover {
+  opacity: 0.75;
 }

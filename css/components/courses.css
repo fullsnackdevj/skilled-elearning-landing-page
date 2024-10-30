@@ -1,5 +1,5 @@
 .courses {
-  background: linear-gradient(#fff, #f0f1ff 10%);
+  background: linear-gradient(#fff, #f0f1ff 40%);
   padding-block: 64px 80px;
 }
 
@@ -38,7 +38,7 @@
   top: 0;
   /* position horizontal 0 and  vertical -50% */
   /* translate base on the width and height of the element itself not the parent */
-  translate: 0 -50%;
+  translate: 32px -50%;
 }
 
 .courses h3 {
