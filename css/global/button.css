@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  font-size: var(--fs-7);
+  font-weight: 700;
+  line-height: 1.5;
+
+  padding: 10.5px 24px;
+  border-radius: 28px;
+  cursor: pointer;
+
+  /* setting up backgroun and opacity transition in buttons */
+
+  transition: 150ms ease-in-out;
+  transition-property: background, opacity;
+}
+
+.button.dark {
+  background-color: var(--clr-blue-900);
+  color: var(--clr-white);
+}
+
+.button.dark:hover {
+  background: var(--clr-blue-600);
+}
+
+.button.pink {
+  background: var(--gradient-pink);
+  color: var(--clr-white);
+}
+
+.button.pink:hover {
+  opacity: 0.5;
+}
+
+@media (width >=75em) {
+  .button {
+    padding: 16px 32px;
+  }
+}
